@@ -359,13 +359,10 @@ img {
   left: 55px;
 }
 .circuloFoto {
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, 0%);
+  position: relative;
+  font-size: 0px;
   /*border-radius: 50%;*/
-  width: 60%;
+  width: 100%;
   }
 .svg{
   position: absolute;
@@ -713,4 +710,9 @@ textarea.input {
 .btn_contacto:hover {
   background-color: transparent;
   color: #fff;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
 }

@@ -1,55 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Offside YOPAL</title>
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="header__logo">Offside Yopal</a>
-
-            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-
-            <nav class="nav" id="nav-menu">
-                <div class="nav__content bd-grid">
-
-                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-    
-                    <div class="nav__perfil">
-                        <div class="nav__img">
-                            <img src="assets/img/perfil.png" alt="">
-                        </div>
-                        
-                        <div>
-                            <a href="#" class="nav__name">Offisde Yopal</a>
-                            <span class="nav__profesion">Web designer</span>
-                        </div>
-                    </div>
-    
-                    <div class="nav__menu">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="#" class="nav__link active">Inicio</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Precios</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Testimonios</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Nosotros</a></li>
-                            <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
-                        </ul>
-                    </div>
-    
-                    <div class="nav__social">
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <h1 class="texto__principal">BUSCA TU</h1>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFSIDE | Yopal</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="log">
+            <input type="image" src="assets/img/logo.png" alt="">
+        </label>
+        <ul class="menubar">
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Testimonios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#">Nosotros</a></li>
+        </ul>
+        </div>
+        
+    </nav>
+    <h1 class="texto__principal">BUSCA TU</h1>
         <h1 class="texto__principal2">CANCHA</h1>
         <div class="rectangle__footer"></div>
         <img class="img__store" src="assets/img/play_store.png" />
@@ -57,12 +35,12 @@
         <h1 class="textoj">JUEGA JUEGA JUEGA</h1>
         <h1 class="textof">fútbol fútbol fútbol</h1>
         <img class="svg" src="assets/img/svg.svg" alt="">
-
-
-        <!-- ===== IONICONS ===== -->
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <div class="madetxt">
+        <h5>
+            Hecho con
+            <span style="color:red">&hearts; </span>
+            por Temgic
+        </h5>
+    </div>
+</body>
 </html>

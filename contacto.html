@@ -1,61 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Contacto | OFFSIDE YOPAL</title>
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="header__logo">Offside Yopal</a>
-
-            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-
-            <nav class="nav" id="nav-menu">
-                <div class="nav__content bd-grid">
-
-                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-    
-                    <div class="nav__perfil">
-                        <div class="nav__img">
-                            <img src="assets/img/perfil.png" alt="">
-                        </div>
-                        
-                        <div>
-                            <a href="#" class="nav__name">Offisde Yopal</a>
-                            <span class="nav__profesion">Web designer</span>
-                        </div>
-                    </div>
-    
-                    <div class="nav__menu">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="index.html" class="nav__link active">Inicio</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Precios</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Testimonios</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Nosotros</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
-                        </ul>
-                    </div>
-    
-                    <div class="nav__social">
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFSIDE | Yopal</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="log">
+                    <input type="image" src="assets/img/logo.png" alt="">
+                </label>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Precios</a></li>
+                    <li><a href="#">Testimonios</a></li>
+                    <li><a class="active" href="#">Contacto</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
         <div class="container">
             <span class="contactoCircle"></span>
             <img src="assets/img/shape.png" alt="" class="contactoSquare" />
             <div class="form">
                 <div class="contact-info">
-                    <h3 class="title_form">Offside Yopal</h3>
+                    <h3 class="title_form">OFFISDE Yopal</h3>
                     <p class="textform">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
                         dolorum adipisci recusandae praesentium dicta!
@@ -75,7 +56,7 @@
                         </div>
                     </div>
                     <div class="social-media">
-                        <p>Connect with us:</p>
+                        <p>Nuestras redes:</p>
                         <div class="social-icons">
                             <a href="#">
                                 <i class="fab fa-facebook-f"></i>
@@ -92,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="contact-form">
                     <span class="circle one"></span>
                     <span class="circle two"></span>
@@ -123,13 +104,19 @@
                 </div>
             </div>
         </div>
+        <div class="madetxt">
+            <h5>
+                Hecho con
+                <span style="color:red">&hearts; </span>
+                por Temgic
+            </h5>
+        </div>
+    </main>
+    
+    
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
-
-        <!-- ===== IONICONS ===== -->
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/contacto.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/contacto.js"></script>
+</body>
 </html>
