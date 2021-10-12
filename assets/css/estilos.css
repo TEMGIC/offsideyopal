@@ -221,7 +221,7 @@
     fill: #4EB163;
   }
   /* --- Medidas responsive --- */
-  @media (max-width: 1400px){
+  @media (max-width: 953px){
     .textof, .textoj{
       margin: auto;
       width: 256px;
