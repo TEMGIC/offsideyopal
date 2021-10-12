@@ -51,10 +51,10 @@
   }
   .log input{
       text-decoration: none;
-      width: 208px;
-      height: 50px;
+      width: auto;
+      height: 6vh;
       margin-left: 55px;
-      margin-top: 15px;
+      margin-top: 1vh;
   }
   .menu {
     max-width: 100%;
@@ -254,7 +254,7 @@
     }
     .contenedor{
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto auto 1fr 125px;
+      grid-template-rows: auto 1fr 1fr 125px;
       column-gap: 30px;
     }
     .contenedor .medioFoto{
@@ -299,4 +299,23 @@
     #check:checked ~ ul{
       left: 0;
     }
+  }
+  @media (max-width: 480px){
+    .texto__principal{
+      line-height: 20px;
+      font-size: 30px;
+    }
+    .texto__principal2{
+      font-size: 55px;
+    }
+    .textof, .textoj{
+      font-size: 30px;
+      width: 100px;
+    }
+    .btnIndex{
+      font-size: 10px;
+      width: 90px;
+      height: 25px;
+      margin: -5px 0 0 -50px;
+  }
   }
