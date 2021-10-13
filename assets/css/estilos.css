@@ -9,6 +9,7 @@
   body{
     font-family: "Poppins", sans-serif;
     height: 100%;
+    
   }
   nav{
     background: #4EB163;
@@ -51,10 +52,10 @@
   }
   .log input{
       text-decoration: none;
-      width: 208px;
-      height: 50px;
+      width: auto;
+      height: 6vh;
       margin-left: 55px;
-      margin-top: 15px;
+      margin-top: 1vh;
   }
   .menu {
     max-width: 100%;
@@ -221,7 +222,7 @@
     fill: #4EB163;
   }
   /* --- Medidas responsive --- */
-  @media (max-width: 1400px){
+  @media (max-width: 953px){
     .textof, .textoj{
       margin: auto;
       width: 256px;
@@ -243,6 +244,7 @@
       grid-column: span 2;
       grid-row: 4/-1;
       text-align: center;
+      margin-left: 0px;
     }
     .contenedor .textoDer{
       grid-column: 2/4;
@@ -299,4 +301,26 @@
     #check:checked ~ ul{
       left: 0;
     }
+  }
+  @media (max-width: 480px){
+    .texto__principal{
+      line-height: 20px;
+      font-size: 30px;
+    }
+    .texto__principal2{
+      font-size: 55px;
+    }
+    .textof, .textoj{
+      font-size: 30px;
+      width: 100px;
+    }
+    .btnIndex{
+      font-size: 10px;
+      width: 90px;
+      height: 25px;
+      margin: -5px 0 0 -50px;
+  }
+  .footerIz{
+    margin-left: 0px;
+  }
   }
