@@ -83,43 +83,65 @@
 .social i:hover{
 	color:#2F2E41;
 }
+@media (max-width: 1024px){
+  .gridAbout{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr ;
+    grid-column-gap: 20px;
+  }
+  .section-title{
+    grid-column: span 2;
+  }
+  .leyenda{
+    grid-column: span 2;
+  }
+}
 @media screen and (max-width: 768px){
+  .gridAbout{
+    grid-template-columns: 1fr;
+  }
+  .section-title{
+    grid-column: span 1;
+  }
+  .leyenda{
+    grid-column: span 1;
+  }
 	.container{
 	width: 80%;
 	display: block;
 	margin:auto;
 	padding-top:50px;
-}
-.content-section{
-	float:none;
-	width:100%;
-	display: block;
-	margin:auto;
-}
-.image-section{
-	float:none;
-	width:100%;
-	
-}
-.image-section img{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin:auto;
-}
-.content-section .title{
-	text-align: center;
-	font-size: 19px;
-}
-.content-section .content .button{
-	text-align: center;
-}
-.content-section .content .button a{
-	padding:9px 30px;
-}
-.social{
-	text-align: center;
-}
+  }
+  .content-section{
+    float:none;
+    width:100%;
+    display: block;
+    margin:auto;
+  }
+  .image-section{
+    float:none;
+    width:100%;
+    
+  }
+  .image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+  }
+  .content-section .title{
+    text-align: center;
+    font-size: 19px;
+  }
+  .content-section .content .button{
+    text-align: center;
+  }
+  .content-section .content .button a{
+    padding:9px 30px;
+  }
+  .social{
+    text-align: center;
+  }
 
 }
 .fotoDuo {
@@ -132,6 +154,7 @@
 }
 
 .cards {
+  z-index: 1;
   position: relative;
   justify-self: center;
   width: 300px;
